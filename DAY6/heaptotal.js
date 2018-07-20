@@ -17,10 +17,10 @@ var useMem = function () {
     return arr;
 };
 
-var total = [];
+var totals = [];
 
 for (var j = 0; j < 15; j++) {
     showMem();
-    total.push(useMem());
+    totals.push(useMem());
 }
 showMem();
